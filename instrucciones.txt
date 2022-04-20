@@ -1,0 +1,9 @@
+ICONO DE MENU CON MOVIMIENTO
+Con "menu-icon" creamos 3 div que contienen las clases line1, line2 y line3.
+En css detallamos la forma y tipo de linea.
+Definimos en css lo que hace cada linea en .move .line1, pero no definimos la clase .move a nada.
+En javascript seleccionamos el elementos ".menu-icon" y lo alojamos en let menu
+Utilizamos onclick para que cuando se clickee el menu se le agregue la clase "move"
+
+OCULTAR MENU Y HACER QUE APAREZCA
+En ".menu-icon" hacemos display none
