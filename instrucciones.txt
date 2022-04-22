@@ -1,9 +1,42 @@
 ICONO DE MENU CON MOVIMIENTO
-Con "menu-icon" creamos 3 div que contienen las clases line1, line2 y line3.
-En css detallamos la forma y tipo de linea.
-Definimos en css lo que hace cada linea en .move .line1, pero no definimos la clase .move a nada.
-En javascript seleccionamos el elementos ".menu-icon" y lo alojamos en let menu
-Utilizamos onclick para que cuando se clickee el menu se le agregue la clase "move"
+
+HTML: 
+Creamos un contenedor "menu-icon" con 3 div internos con las clases "line1, line2, line3" respectivamente.
+
+CSS:
+Seleccionamos ".menu-icon div" y definimos un vector por cada uno de los div "line".
+
+Definimos la transition de cada uno llamando a la clase ".move" junto a la clase "line1", "line2" y "line3".
+Pero esta clase ".move" no ha sido definida en el html.
+
+JS
+Guardamos en la variable "menu" el elemento ".menu-icon" mediante querySelector.
+Utilizamos menu.onclick para que cuando se clickee el menu se le agregue la clase "move" a los elementos que se 
+encuentran dentro del div con la clase "menu-icon".
+
+======================================================================================
+
+EFECTO PORTFOLIO
+
 
 OCULTAR MENU Y HACER QUE APAREZCA
 En ".menu-icon" hacemos display none
+
+
+- clon Google -
+https://espi89.github.io/clonGoogle/
+
+- calculadora Js -
+https://espi89.github.io/Calculadora-js/
+
+- Bon Jovi fans site -
+https://espi89.github.io/CoderHouse-BonJovi/
+
+- arca Manteninimientos -
+https://espi89.github.io/Proyecto-ArcaMantenimientos/
+
+- contadorReedit -
+https://espi89.github.io/td/
+
+- puntoVerde -
+https://espi89.github.io/CoderHouse-PuntoVerde/
